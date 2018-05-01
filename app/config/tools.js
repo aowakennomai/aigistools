@@ -1,34 +1,34 @@
 module.exports = [
-  {
-    name: 'キャリーさんもそう思うジェネレーター',
-    id: 'carrie',
-    path: 'carrie',
-  },
-  {
-    name: 'ダメージビジュアライザー',
-    id: 'visualizer',
-    path: 'visualizer',
-  },
-  {
-    name: '漆黒の射手リタさんがチラチラ見てくる',
-    id: 'aigisrita',
-    path: 'https://chrome.google.com/webstore/detail/ememknmjckfbganihedbodegbdddlhhl',
-  },
-  {
-    name: '隠密測定',
-    id: 'onmitsu',
-    path: 'onmitsu/',
-  },
-  {
-    name: 'ご飯計算機',
-    id: 'exp',
-    path: 'exp/',
-  },
-  {
-    name: '千年マスゲーム',
-    id: 'massgame',
-    path: 'massgame/',
-  },
+  // {
+  //   name: 'キャリーさんもそう思うジェネレーター',
+  //   id: 'carrie',
+  //   path: 'carrie',
+  // },
+  // {
+  //   name: 'ダメージビジュアライザー',
+  //   id: 'visualizer',
+  //   path: 'visualizer',
+  // },
+  // {
+  //   name: '漆黒の射手リタさんがチラチラ見てくる',
+  //   id: 'aigisrita',
+  //   path: 'https://chrome.google.com/webstore/detail/ememknmjckfbganihedbodegbdddlhhl',
+  // },
+  // {
+  //   name: '隠密測定',
+  //   id: 'onmitsu',
+  //   path: 'onmitsu/',
+  // },
+  // {
+  //   name: 'ご飯計算機',
+  //   id: 'exp',
+  //   path: 'exp/',
+  // },
+  // {
+  //   name: '千年マスゲーム',
+  //   id: 'massgame',
+  //   path: 'massgame/',
+  // },
   {
     name: '赤い彼岸花タイマー',
     id: 'red-lycoris-timer',

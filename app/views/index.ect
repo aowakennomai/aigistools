@@ -12,6 +12,14 @@
   <li><a href="#">メメンテナンスちゃんを始めキャラクターの画像はほぼ全てぴんくちゃんねるのアイギススレに投稿された物を使用しています。</a></li>
 <% end %>
 
+<h2>Forkして更新を続きます。(2018/05/01)</h2>
+<p>
+  どうも、aowakennomai と申します。<br/>
+  あんまりにも便利なツールで、このまま使えなくなるのがとても惜しいと思って、zenith さんに許可をいただきforkの形で更新を続くようと思います。<br/>
+  これからはタイマーだけを使えるにしてソースコードを更新します。<br/>
+  また、サーバーは構築していませんので、使う場合ソースコードをダンロードし、ローカルでデプロイしてから実行する必要があります。<br/>
+  もしまた不適切は点がありましたらご連絡ください：<a class="email" href="mailto:aowakennomai@gmail.com">aowakennomai@gmail.com</a>
+</p>
 <h2>【重要】画像の無断使用のお詫びと今後の対応につきまして 2017年11月26日追記</h2>
 <p>
   弊サイト「千年戦争アイギスツール」に掲載・利用されている画像について、権利者の利用承諾を得ていない画像が含まれていました。<br />
@@ -35,7 +43,7 @@
 <nav class="tool-list">
   <ul>
     <% for tool in @config.tools: %>
-    <li class="tool tool-<%= tool.id %> <% if tool.deprecated: %>tool-deprecated<% end; %>"><a href="#">
+    <li class="tool tool-<%= tool.id %> <% if tool.deprecated: %>tool-deprecated<% end; %>"><a href="<%= @url(tool.path) %>">
       <%= tool.name %></a>
     </li>
     <% end %>

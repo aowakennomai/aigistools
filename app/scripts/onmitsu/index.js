@@ -1,5 +1,5 @@
 var icons = require('../../resources/aigisdot/aigisdot.json');
-var iconSprite = require('url-loader?mimetype=image/png!../../resources/aigisdot/aigisdot.png');
+var iconSprite = ''; // require('url-loader?mimetype=image/png!../../resources/aigisdot/aigisdot.png');
 
 var maxTimeLimit = 60 * 1000;
 var tileContainerWidth;

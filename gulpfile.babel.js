@@ -120,6 +120,7 @@ gulp.task('view', () => {
 
   return gulp.src([
       path.join(config.view.path, '*.ect'),
+      path.join(config.view.path, '*-timer/*.ect'),
       '!' + path.join(config.view.path, '**/_*.ect'),
     ])
     .pipe($.plumber({
