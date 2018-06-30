@@ -30,9 +30,15 @@ module.exports = [
   //   path: 'massgame/',
   // },
   {
+    name: '花びらタイマー',
+    id: 'petal-timer',
+    path: 'petal-timer/'
+  },
+  {
     name: '風水尺タイマー',
     id: 'fengshui-ruler-timer',
-    path: 'fengshui-ruler-timer/'
+    path: 'fengshui-ruler-timer/',
+    deprecated: true
   },
   {
     name: '赤い彼岸花タイマー',
