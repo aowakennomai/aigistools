@@ -109,13 +109,13 @@
       },
       {
         "id": 2018062806,
-        "name": "--",
+        "name": "黒に染まりし幻獣",
         "charisma": 40,
         "stamina": 5,
         "expectation": 9,
         "drops": [
           {"name": "花びら3", "icon": "petal-3", "set": 3},
-          {"name": "--", "icon": "--"},
+          {"name": "狂戦士フューネス", "icon": "funes"},
           {"name": "聖霊女王", "icon": "gladys"},
           {"name": "プラチナアーマー", "icon": "platinum-bucket"}
         ],
@@ -125,14 +125,14 @@
       },
       {
         "id": 2018062807,
-        "name": "--",
+        "name": "襲撃の闇エルフ騎士",
         "charisma": 70,
         "stamina": 8,
         "expectation": 13,
         "drops": [
           {"name": "花びら5", "icon": "petal-5", "set": 2},
           {"name": "花びら3", "icon": "petal-3", "set": 1},
-          {"name": "--", "icon": "--"},
+          {"name": "金色の盾ベルナール", "icon": "bernard"},
           {"name": "ルビー", "icon": "ruby"}
         ],
         "experience": 400,
@@ -141,13 +141,13 @@
       },
       {
         "id": 2018062808,
-        "name": "--",
+        "name": "妖精郷防衛戦",
         "charisma": 90,
         "stamina": 12,
         "expectation": 25,
         "drops": [
           {"name": "花びら5", "icon": "petal-5", "set": 5},
-          {"name": "--", "icon": "--"},
+          {"name": "見習い騎兵ミーシャ", "icon": "misha"},
           {"name": "技強化の聖霊", "icon": "rainbow-sprit"}
         ],
         "experience": 620,
@@ -156,7 +156,7 @@
       },
       {
         "id": 2018062809,
-        "name": "--",
+        "name": "黒きドレスの行方",
         "charisma": 100,
         "stamina": 2,
         "expectation": 0,
